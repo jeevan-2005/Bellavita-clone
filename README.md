@@ -26,9 +26,9 @@ Smart Filters: Refine your search results by category to find exactly what you'r
 
 ## Technologies Used
 
-HTML5
-CSS3
-JavaScript
-React.js
-ChakraUi
-Redux
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* ChakraUi
+* Redux
