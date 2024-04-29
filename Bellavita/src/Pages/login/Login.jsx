@@ -196,10 +196,12 @@ const Login = () => {
             </Button>
             </Stack>
 
-            <Stack direction='row' fontSize='14px' >
+            {!isAuth.Auth && (
+              <Stack direction='row' fontSize='14px' >
               <Text>Dont have an account?</Text>
               <Link to='/signUp' onClick={onClose} ><span style={{color: 'rgb(49,130,206)',textDecoration: 'underline'}} >Sign up</span></Link>
             </Stack>
+            )}
           </ModalFooter>
         </ModalContent>
       </Modal>
